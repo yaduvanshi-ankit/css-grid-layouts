@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(146, 93, 93);
+    border:.14REM solid black;
+   padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    /* grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr); */
+
+    /* grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr); */
+  
+}
+
+.item{
+    /* height: 5rem;
+    width: 5rem; */
+    color: white;
+    background-color: rgb(47, 47, 233);
+    border: .12rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+@media(min-width:380px){
+    .container{
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    }
+   .content1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: orange;
+}
+
+.content2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: aqua;
+}
+.content3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: red;
+}
+.content4{
+
+    grid-template-rows: repeat(2,3fr);
+    grid-template-columns: repeat(2,3fr);
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: 3px solid black;
+
+    display: grid;
+    padding: 1rem;
+    gap: .7rem;
+    
+    background-color: bisque;
+
+}
+
+
+.itemcontent4{
+    background-color: rgb(146, 93, 93);
+    border:.1REM solid black;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: aqua;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: .2rem solid black;
+}
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .2rem solid black;
+}.box3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(243, 87, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .2rem solid black;
+}
+
+}  
