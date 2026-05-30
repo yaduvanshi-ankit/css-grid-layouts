@@ -39,5 +39,27 @@ This repository contains multiple frontend layout designs created for practice a
 
 ## Layout 3
 ![Layout 3](layout%203/screenshot.png)
+
+## Layout 4
+![Layout 4](layout%204/screenshot.png)
+
+## Layout 5
+![Layout 5](layout%205/screenshot.png)
+
+## Layout 6
+![Layout 6](layout%206/screenshot.png)
+
+
+## Layout 7
+![Layout 7](layout%207/screenshot.png)
+
+
+## Layout 8
+![Layout 8](layout%208/screenshot.png)
+
+
+## Layout 9
+![Layout 9](layout%209/screenshot.png)
+
 ## 👨‍💻 Author
 Ankit
