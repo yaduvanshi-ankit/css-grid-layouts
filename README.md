@@ -28,5 +28,16 @@ This repository contains multiple frontend layout designs created for practice a
 - Responsive Layout Design
 - Portfolio Projects
 
+
+# CSS Grid Layouts Collection
+
+## Layout 1
+![Layout 1](Layout%201/screenshot.png)
+
+## Layout 2
+![Layout 2](layout%202/screenshot.png)
+
+## Layout 3
+![Layout 3](layout%203/screenshot.png)
 ## 👨‍💻 Author
 Ankit
